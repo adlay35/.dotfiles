@@ -1,4 +1,4 @@
-# Neovim Configuration Cheat Sheet
+# Neovim Configuration
 
 ## 1. Harpoon (Quick Navigation)
 | Key | Function | Description |
