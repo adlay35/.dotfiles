@@ -1,0 +1,10 @@
+.netrwhist
+undo/
+backups/
+swaps/
+*.swp
+node_modules/
+package-lock.json
+package.json
+lazyvim.json
+*.log
