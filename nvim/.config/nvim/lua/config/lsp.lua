@@ -2,7 +2,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(ev)
     local opts = { buffer = ev.buf }
 
-    -- Primeagen
+    -- ThePrimeagen
     vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
     vim.keymap.set("n", "gt", vim.lsp.buf.type_definition, opts)
     vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
