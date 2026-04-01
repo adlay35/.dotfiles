@@ -17,7 +17,7 @@ vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.wrap = false
 vim.opt.termguicolors = true
-vim.opt.signcolumn = 'yes'
+vim.opt.signcolumn = "yes"
 vim.opt.scrolloff = 10
 
 -- backups & swap
@@ -26,8 +26,8 @@ vim.opt.writebackup = false
 vim.opt.swapfile = false
 
 -- etc
-vim.scriptencoding = 'utf-8'
-vim.opt.encoding = 'utf-8'
+vim.scriptencoding = "utf-8"
+vim.opt.encoding = "utf-8"
 vim.opt.undofile = true
 vim.opt.updatetime = 300
 vim.opt.timeoutlen = 500
