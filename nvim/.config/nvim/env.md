@@ -1,0 +1,5 @@
+- Node.js: TS, JS, HTML, CSS LSP
+- JDK 17+: Java (JDTLS)
+- Python 3: Pyright
+- LLVM/Clang: C/C++ (Clangd)
+- Rustup: Rust Analyzer

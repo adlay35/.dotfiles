@@ -6,6 +6,11 @@ if [[ -z $selected ]]; then
     exit 0
 fi
 
+if [[ "$selected" == "bindings" ]]; then
+    tmux neww bash -c "nvim -R ~/.dotfiles/bindings.txt"
+    exit 0
+fi
+
 read -p "Enter Query: " query
 
 if grep -qs "$selected" ~/.tmux-cht-languages; then

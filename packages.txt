@@ -1,0 +1,8 @@
+kitty
+zsh
+stow
+nvim
+tmux
+fzf
+yazi
+spotify_player
