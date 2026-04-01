@@ -122,4 +122,6 @@
   <leader>dt -> Terminate (디버깅 완전 종료)
   <leader>dv -> Debug View 토글 (변수/콜스택 창)
 
+  [ Formatting (conform.nvim) ]
+  <leader>f  -> 현재 버퍼 코드 스타일 자동 정렬
 
